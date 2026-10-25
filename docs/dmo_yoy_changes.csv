@@ -1,0 +1,56 @@
+year,distribution_zone,state,customer_type,previous_price,current_price,change_aud,change_pct,previous_real_price_2019_20_aud,current_real_price_2019_20_aud,real_change_aud,real_change_pct
+2020-21,Ausgrid,NSW,residential,1467,1462,-5,-0.3,1467,1466,-1,-0.1
+2021-22,Ausgrid,NSW,residential,1462,1393,-69,-4.7,1466,1346,-120,-8.2
+2022-23,Ausgrid,NSW,residential,1393,1512,119,8.5,1346,1377,31,2.3
+2023-24,Ausgrid,NSW,residential,1512,1827,315,20.8,1377,1570,193,14.0
+2024-25,Ausgrid,NSW,residential,1827,1810,-17,-0.9,1570,1498,-72,-4.6
+2025-26,Ausgrid,NSW,residential,1810,1965,155,8.6,1498,1593,95,6.3
+2026-27,Ausgrid,NSW,residential,1965,1899,-66,-3.4,1593,1482,-111,-7.0
+2023-24,Ausgrid,NSW,small_business,4360,4999,639,14.7,3971,4295,324,8.2
+2024-25,Ausgrid,NSW,small_business,4999,4612,-387,-7.7,4295,3818,-477,-11.1
+2025-26,Ausgrid,NSW,small_business,4612,4977,365,7.9,3818,4035,217,5.7
+2026-27,Ausgrid,NSW,small_business,4977,4523,-454,-9.1,4035,3529,-506,-12.5
+2020-21,Endeavour Energy,NSW,residential,1720,1711,-9,-0.5,1720,1716,-4,-0.2
+2021-22,Endeavour Energy,NSW,residential,1711,1609,-102,-6.0,1716,1555,-161,-9.4
+2022-23,Endeavour Energy,NSW,residential,1609,1836,227,14.1,1555,1672,117,7.5
+2023-24,Endeavour Energy,NSW,residential,1836,2228,392,21.4,1672,1914,242,14.5
+2024-25,Endeavour Energy,NSW,residential,2228,2223,-5,-0.2,1914,1840,-74,-3.9
+2025-26,Endeavour Energy,NSW,residential,2223,2411,188,8.5,1840,1955,115,6.2
+2026-27,Endeavour Energy,NSW,residential,2411,2328,-83,-3.4,1955,1816,-139,-7.1
+2023-24,Endeavour Energy,NSW,small_business,3782,4598,816,21.6,3444,3951,507,14.7
+2024-25,Endeavour Energy,NSW,small_business,4598,4422,-176,-3.8,3951,3660,-291,-7.4
+2025-26,Endeavour Energy,NSW,small_business,4422,4775,353,8.0,3660,3871,211,5.8
+2026-27,Endeavour Energy,NSW,small_business,4775,4343,-432,-9.0,3871,3389,-482,-12.5
+2020-21,Essential Energy,NSW,residential,1957,1960,3,0.2,1957,1966,9,0.5
+2021-22,Essential Energy,NSW,residential,1960,1907,-53,-2.7,1966,1843,-123,-6.3
+2022-23,Essential Energy,NSW,residential,1907,2092,185,9.7,1843,1905,62,3.4
+2023-24,Essential Energy,NSW,residential,2092,2527,435,20.8,1905,2171,266,14.0
+2024-25,Essential Energy,NSW,residential,2527,2513,-14,-0.6,2171,2080,-91,-4.2
+2025-26,Essential Energy,NSW,residential,2513,2741,228,9.1,2080,2222,142,6.8
+2026-27,Essential Energy,NSW,residential,2741,2604,-137,-5.0,2222,2032,-190,-8.6
+2023-24,Essential Energy,NSW,small_business,4901,5761,860,17.5,4464,4950,486,10.9
+2024-25,Essential Energy,NSW,small_business,5761,5733,-28,-0.5,4950,4745,-205,-4.1
+2025-26,Essential Energy,NSW,small_business,5733,6222,489,8.5,4745,5044,299,6.3
+2026-27,Essential Energy,NSW,small_business,6222,5517,-705,-11.3,5044,4305,-739,-14.7
+2020-21,Energex,SE QLD,residential,1570,1508,-62,-3.9,1570,1513,-57,-3.6
+2021-22,Energex,SE QLD,residential,1508,1455,-53,-3.5,1513,1406,-107,-7.1
+2022-23,Energex,SE QLD,residential,1455,1620,165,11.3,1406,1475,69,4.9
+2023-24,Energex,SE QLD,residential,1620,1969,349,21.5,1475,1692,217,14.7
+2024-25,Energex,SE QLD,residential,1969,2066,97,4.9,1692,1710,18,1.1
+2025-26,Energex,SE QLD,residential,2066,2143,77,3.7,1710,1737,27,1.6
+2026-27,Energex,SE QLD,residential,2143,1988,-155,-7.2,1737,1551,-186,-10.7
+2023-24,Energex,SE QLD,small_business,3446,4202,756,21.9,3138,3610,472,15.0
+2024-25,Energex,SE QLD,small_business,4202,4261,59,1.4,3610,3527,-83,-2.3
+2025-26,Energex,SE QLD,small_business,4261,4294,33,0.8,3527,3481,-46,-1.3
+2026-27,Energex,SE QLD,small_business,4294,3849,-445,-10.4,3481,3003,-478,-13.7
+2020-21,SA Power Networks,SA,residential,1941,1832,-109,-5.6,1941,1838,-103,-5.3
+2021-22,SA Power Networks,SA,residential,1832,1716,-116,-6.3,1838,1658,-180,-9.8
+2022-23,SA Power Networks,SA,residential,1716,1840,124,7.2,1658,1676,18,1.1
+2023-24,SA Power Networks,SA,residential,1840,2279,439,23.9,1676,1958,282,16.8
+2024-25,SA Power Networks,SA,residential,2279,2230,-49,-2.2,1958,1846,-112,-5.7
+2025-26,SA Power Networks,SA,residential,2230,2301,71,3.2,1846,1865,19,1.0
+2026-27,SA Power Networks,SA,residential,2301,2334,33,1.4,1865,1821,-44,-2.4
+2023-24,SA Power Networks,SA,small_business,4539,5849,1310,28.9,4134,5025,891,21.6
+2024-25,SA Power Networks,SA,small_business,5849,5352,-497,-8.5,5025,4430,-595,-11.8
+2025-26,SA Power Networks,SA,small_business,5352,5541,189,3.5,4430,4492,62,1.4
+2026-27,SA Power Networks,SA,small_business,5541,5162,-379,-6.8,4492,4028,-464,-10.3

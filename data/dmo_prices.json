@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "source": "AER Default Market Offer Final Determinations 2019-20 to 2026-27",
+    "notes": "Annual reference prices in AUD for representative customers. Flat rate tariff. Usage assumptions vary by zone and have changed across determinations.",
+    "usage_assumptions_kwh": {
+      "Ausgrid": {
+        "residential": 3900,
+        "small_business": 10000
+      },
+      "Endeavour Energy": {
+        "residential": 4900,
+        "small_business": 10000
+      },
+      "Essential Energy": {
+        "residential": 4600,
+        "small_business": 10000
+      },
+      "Energex": {
+        "residential": 4600,
+        "small_business": 10000
+      },
+      "SA Power Networks": {
+        "residential": 4000,
+        "small_business": 10000
+      }
+    },
+    "dmo5_usage_assumptions_kwh": {
+      "note": "DMO 5 (2023-24) used a 366-day year, adjusting all usage assumptions",
+      "Ausgrid": {
+        "residential": 3911,
+        "small_business": 10027
+      },
+      "Endeavour Energy": {
+        "residential": 4913,
+        "small_business": 10027
+      },
+      "Essential Energy": {
+        "residential": 4613,
+        "small_business": 10027
+      },
+      "Energex": {
+        "residential": 4613,
+        "small_business": 10027
+      },
+      "SA Power Networks": {
+        "residential": 4011,
+        "small_business": 10027
+      }
+    },
+    "small_business_note": "Small business usage assumption changed from 20,000 kWh to 10,000 kWh at DMO 4 (2022-23). Earlier SB prices are not comparable and are excluded. SB series begins at DMO 4.",
+    "cpi_deflators": {
+      "description": "CPI All Groups Weighted Average of Eight Capital Cities, June quarter index chained from Jun 2019 = 100. Used to deflate nominal DMO prices to 2019-20 dollars.",
+      "source": "ABS Consumer Price Index, Australia (cat. 6401.0). June quarter annual percentage changes applied cumulatively from a Jun 2019 base.",
+      "note_dmo8": "Jun 2026 figure uses the ABS June quarter 2026 CPI annual change of 3.9% (published 26 August 2026).",
+      "by_dmo_year": {
+        "2019-20": 100.00,
+        "2020-21": 99.70,
+        "2021-22": 103.49,
+        "2022-23": 109.80,
+        "2023-24": 116.39,
+        "2024-25": 120.81,
+        "2025-26": 123.35,
+        "2026-27": 128.16
+      }
+    },
+    "approximate_customers": {
+      "description": "Approximate total customers per distribution zone, for customer-weighted averages. Figures are rounded from DNSP regulatory proposals, annual reports and AER snapshots (2023-25 vintage).",
+      "sources": {
+        "Ausgrid": "data.nsw.gov.au ('over 1.7 million customers')",
+        "Endeavour Energy": "Endeavour Energy 2025-30 Regulatory Proposal Overview, January 2024 (1.08 million)",
+        "Essential Energy": "Essential Energy Annual Report 2025 (over 900,000 electricity customers)",
+        "Energex": "Energex 2025-30 Regulatory Proposal Overview, January 2024 (close to 1.6 million)",
+        "SA Power Networks": "AER Jurisdictional Snapshots 2024-25 (829,502)"
+      },
+      "Ausgrid": 1700000,
+      "Endeavour Energy": 1080000,
+      "Essential Energy": 900000,
+      "Energex": 1600000,
+      "SA Power Networks": 830000
+    },
+    "data_sources": {
+      "residential_2019-20": "AER DMO 1 (2019–20) Final Determination, Table 1 (p. 8)",
+      "residential_2020-21": "AER DMO 2 (2020–21) Final Determination, Table 1 (p. 9)",
+      "residential_2021-22": "AER DMO 3 (2021–22) Final Determination, Table 2 (p. 21)",
+      "residential_2022-23": "AER DMO 4 (2022–23) Final Determination, Table 2.1 (p. 7); F2022L00738 as-made instrument (prices at s 7, usage at s 5)",
+      "residential_2023-24": "AER DMO 5 (2023–24) Final Determination, Table 2.1 (p. 6)",
+      "residential_2024-25": "AER DMO 6 (2024–25) Revised Final Determination, Table 2.1 (p. 6)",
+      "residential_2025-26": "AER DMO 7 (2025–26) Final Determination, Table 2.1 (p. 8)",
+      "residential_2026-27": "AER DMO 8 (2026–27) Final Determination, Table 2.1 (p. 7); Information Kit (p. 4)",
+      "small_business_2022-23": "AER DMO 4 (2022–23) Final Determination, Table 2.1 (p. 7); F2022L00738 as-made instrument (prices at s 7, usage at s 5)",
+      "small_business_2023-24": "AER DMO 5 (2023–24) Final Determination, Table 2.1 (p. 6)",
+      "small_business_2024-25": "AER DMO 6 (2024–25) Revised Final Determination, Table 2.1 (p. 6)",
+      "small_business_2025-26": "AER DMO 7 (2025–26) Final Determination, Table 2.1 (p. 8)",
+      "small_business_2026-27": "AER DMO 8 (2026–27) Final Determination, Table 2.2 (p. 8); Information Kit (p. 5)",
+      "small_business_usage_change": "AER DMO 4 (2022–23) Final Determination, s 2.1 (p. 6)",
+      "standing_offer_DMO_4": "AER DMO 7 (2025–26) Final Determination, Table 3.1 (p. 15)",
+      "standing_offer_DMO_5": "AER DMO 7 (2025–26) Final Determination, Table 3.1 (p. 15)",
+      "standing_offer_DMO_6": "AER DMO 7 (2025–26) Final Determination, Table 3.1 (p. 15)",
+      "standing_offer_DMO_7": "AER DMO 7 (2025–26) Final Determination, Table 3.1 (p. 15)",
+      "standing_offer_DMO_8": "AER DMO 8 (2026–27) Final Determination, Table 3.1 (p. 20)",
+      "cost_component_ranges_2026-27": "AER DMO 8 (2026–27) Information Kit (p. 6)",
+      "sa_wholesale_costs": "AER DMO 8 (2026–27) Final Determination, s 1.2 – SA wholesale costs fell less than other regions because of high-priced FCAS events in July and August 2025",
+      "network_tariff_blending": "AER DMO 8 (2026–27) Final Determination, s 1.3.2"
+    }
+  },
+  "residential": {
+    "Ausgrid": {
+      "2019-20": 1467,
+      "2020-21": 1462,
+      "2021-22": 1393,
+      "2022-23": 1512,
+      "2023-24": 1827,
+      "2024-25": 1810,
+      "2025-26": 1965,
+      "2026-27": 1899
+    },
+    "Endeavour Energy": {
+      "2019-20": 1720,
+      "2020-21": 1711,
+      "2021-22": 1609,
+      "2022-23": 1836,
+      "2023-24": 2228,
+      "2024-25": 2223,
+      "2025-26": 2411,
+      "2026-27": 2328
+    },
+    "Essential Energy": {
+      "2019-20": 1957,
+      "2020-21": 1960,
+      "2021-22": 1907,
+      "2022-23": 2092,
+      "2023-24": 2527,
+      "2024-25": 2513,
+      "2025-26": 2741,
+      "2026-27": 2604
+    },
+    "Energex": {
+      "2019-20": 1570,
+      "2020-21": 1508,
+      "2021-22": 1455,
+      "2022-23": 1620,
+      "2023-24": 1969,
+      "2024-25": 2066,
+      "2025-26": 2143,
+      "2026-27": 1988
+    },
+    "SA Power Networks": {
+      "2019-20": 1941,
+      "2020-21": 1832,
+      "2021-22": 1716,
+      "2022-23": 1840,
+      "2023-24": 2279,
+      "2024-25": 2230,
+      "2025-26": 2301,
+      "2026-27": 2334
+    }
+  },
+  "small_business": {
+    "Ausgrid": {
+      "2022-23": 4360,
+      "2023-24": 4999,
+      "2024-25": 4612,
+      "2025-26": 4977,
+      "2026-27": 4523
+    },
+    "Endeavour Energy": {
+      "2022-23": 3782,
+      "2023-24": 4598,
+      "2024-25": 4422,
+      "2025-26": 4775,
+      "2026-27": 4343
+    },
+    "Essential Energy": {
+      "2022-23": 4901,
+      "2023-24": 5761,
+      "2024-25": 5733,
+      "2025-26": 6222,
+      "2026-27": 5517
+    },
+    "Energex": {
+      "2022-23": 3446,
+      "2023-24": 4202,
+      "2024-25": 4261,
+      "2025-26": 4294,
+      "2026-27": 3849
+    },
+    "SA Power Networks": {
+      "2022-23": 4539,
+      "2023-24": 5849,
+      "2024-25": 5352,
+      "2025-26": 5541,
+      "2026-27": 5162
+    }
+  },
+  "cost_components": {
+    "description": "Share ranges of DMO price by component, as published in AER information kits. The AER publishes ranges across distribution zones, not single midpoint values.",
+    "2026-27": {
+      "wholesale": {
+        "min": 0.3,
+        "max": 0.41
+      },
+      "network": {
+        "min": 0.39,
+        "max": 0.54
+      },
+      "environmental": {
+        "min": 0.02,
+        "max": 0.03
+      },
+      "retail": {
+        "min": 0.07,
+        "max": 0.16
+      }
+    }
+  },
+  "standing_offer_customers": {
+    "description": "Number of customers on standing offers and share of total customer base, from AER determination Table 3.1 series (DMO 4 through DMO 8). SE Queensland figures are approximate — extrapolated from all of Queensland by excluding Ergon Energy customers (per Table 3.1 notes).",
+    "regional_residential_latest": {
+      "note": "Regional residential standing offer counts derived from DMO 7 and DMO 8 Table 3.1",
+      "NSW": {
+        "DMO 7": 278868,
+        "DMO 8": 249958
+      },
+      "SE Queensland": {
+        "DMO 7": 136032,
+        "DMO 8": 158972
+      },
+      "SA": {
+        "DMO 7": 60827,
+        "DMO 8": 66230
+      }
+    },
+    "residential": {
+      "DMO 4": {
+        "count": 580519,
+        "share": 0.104,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 5": {
+        "count": 539948,
+        "share": 0.095,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 6": {
+        "count": 495884,
+        "share": 0.086,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 7": {
+        "count": 475727,
+        "share": 0.082,
+        "source": "DMO 7 final determination Table 3.1",
+        "snapshot": "Q2 2024–25"
+      },
+      "DMO 8": {
+        "count": 475160,
+        "share": 0.08,
+        "source": "DMO 8 final determination Table 3.1",
+        "snapshot": "Q2 2025–26"
+      }
+    },
+    "small_business": {
+      "DMO 4": {
+        "count": 102146,
+        "share": 0.191,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 5": {
+        "count": 91040,
+        "share": 0.18,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 6": {
+        "count": 94799,
+        "share": 0.183,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 7": {
+        "count": 91060,
+        "share": 0.176,
+        "source": "DMO 7 final determination Table 3.1",
+        "snapshot": "Q2 2024–25"
+      },
+      "DMO 8": {
+        "count": 77082,
+        "share": 0.15,
+        "source": "DMO 8 final determination Table 3.1",
+        "snapshot": "Q2 2025–26"
+      }
+    }
+  }
+}

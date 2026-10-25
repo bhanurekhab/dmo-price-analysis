@@ -1,0 +1,624 @@
+{
+  "summary": {
+    "generated": "2026-10",
+    "title": "Default Market Offer \u2014 Eight Years of Prices in Real Terms",
+    "period": "DMO 1 (2019-20) to DMO 8 (2026-27)",
+    "key_findings": [
+      {
+        "finding": "The DMO protects a steadily shrinking group of customers",
+        "detail": "Residential standing offer customers fell from 580,519 (10.4%) at DMO 4 to 475,160 (8.0%) at DMO 8 \u2014 an 18.1% reduction (source: DMO 4 from DMO 7 Table 3.1, DMO 8 from DMO 8 Table 3.1). Small business standing offer customers fell 24.5% over the same period (102,146 to 77,082), with the share dropping from 19.1% to 15.0%. Numbers were essentially flat between DMO 7 (475,727, 8.2%) and DMO 8 (475,160, 8.0%). Regionally, residential NSW fell 10.4% (278,868 to 249,958) while SE Queensland rose 16.9% (136,032 to 158,972; approximate \u2014 extrapolated by excluding Ergon Energy, per Table 3.1 notes) and SA rose 8.9% (60,827 to 66,230)."
+      },
+      {
+        "finding": "In real terms the DMO has gone nowhere in eight years",
+        "detail": "Ausgrid residential nominal prices are up 29.4% from DMO 1 to DMO 8 ($1,467 to $1,899), but in real terms (2019\u201320 dollars) the increase is just 1.0% ($1,467 to $1,482). The real series dipped below its starting point in 2021\u201322 and 2022\u201323 ($1,346 and $1,377), spiked with the 2023\u201324 increase driven by wholesale costs (DMO 5 determination, s 1.2), and has now returned to roughly where it began. DMO 8 itself pulls back residential prices in four of five zones \u2014 the 3.4% nominal fall is a 7.0% real fall once inflation is stripped out. The AER attributes lower wholesale costs to falling contract prices for 2026\u201327 amid low spot price volatility (s 1.2)."
+      },
+      {
+        "finding": "Regional divergence in DMO 8",
+        "detail": "Energex (SE QLD) sees the largest residential flat rate decrease at \u20137.2%. SA Power Networks is the only zone with a flat rate price increase (+1.4% for residential). The AER says South Australian wholesale costs fell less than in other regions because of high-priced FCAS events in July and August 2025 (s 1.2). Network charges also mostly increased."
+      },
+      {
+        "finding": "Small business customers see larger price relief",
+        "detail": "Small business DMO flat rate prices fall by an unweighted average of 9.3% across all five zones in DMO 8 (9.4% weighted by approximate customer numbers), compared with an unweighted average decrease of 3.5% for residential (4.0% weighted), where SA Power Networks rose 1.4%."
+      },
+      {
+        "finding": "Network and wholesale charges are the two largest DMO components",
+        "detail": "In DMO 8, network costs account for 39\u201354% of the price across zones, and wholesale costs represent 30\u201341%. Environmental schemes account for 2\u20133%, and retail costs 7\u201316%."
+      }
+    ]
+  },
+  "prices": {
+    "Ausgrid": {
+      "2019-20": 1467,
+      "2020-21": 1462,
+      "2021-22": 1393,
+      "2022-23": 1512,
+      "2023-24": 1827,
+      "2024-25": 1810,
+      "2025-26": 1965,
+      "2026-27": 1899
+    },
+    "Endeavour Energy": {
+      "2019-20": 1720,
+      "2020-21": 1711,
+      "2021-22": 1609,
+      "2022-23": 1836,
+      "2023-24": 2228,
+      "2024-25": 2223,
+      "2025-26": 2411,
+      "2026-27": 2328
+    },
+    "Essential Energy": {
+      "2019-20": 1957,
+      "2020-21": 1960,
+      "2021-22": 1907,
+      "2022-23": 2092,
+      "2023-24": 2527,
+      "2024-25": 2513,
+      "2025-26": 2741,
+      "2026-27": 2604
+    },
+    "Energex": {
+      "2019-20": 1570,
+      "2020-21": 1508,
+      "2021-22": 1455,
+      "2022-23": 1620,
+      "2023-24": 1969,
+      "2024-25": 2066,
+      "2025-26": 2143,
+      "2026-27": 1988
+    },
+    "SA Power Networks": {
+      "2019-20": 1941,
+      "2020-21": 1832,
+      "2021-22": 1716,
+      "2022-23": 1840,
+      "2023-24": 2279,
+      "2024-25": 2230,
+      "2025-26": 2301,
+      "2026-27": 2334
+    }
+  },
+  "prices_sb": {
+    "Ausgrid": {
+      "2022-23": 4360,
+      "2023-24": 4999,
+      "2024-25": 4612,
+      "2025-26": 4977,
+      "2026-27": 4523
+    },
+    "Endeavour Energy": {
+      "2022-23": 3782,
+      "2023-24": 4598,
+      "2024-25": 4422,
+      "2025-26": 4775,
+      "2026-27": 4343
+    },
+    "Essential Energy": {
+      "2022-23": 4901,
+      "2023-24": 5761,
+      "2024-25": 5733,
+      "2025-26": 6222,
+      "2026-27": 5517
+    },
+    "Energex": {
+      "2022-23": 3446,
+      "2023-24": 4202,
+      "2024-25": 4261,
+      "2025-26": 4294,
+      "2026-27": 3849
+    },
+    "SA Power Networks": {
+      "2022-23": 4539,
+      "2023-24": 5849,
+      "2024-25": 5352,
+      "2025-26": 5541,
+      "2026-27": 5162
+    }
+  },
+  "prices_real": {
+    "Ausgrid": {
+      "2019-20": 1467,
+      "2020-21": 1466,
+      "2021-22": 1346,
+      "2022-23": 1377,
+      "2023-24": 1570,
+      "2024-25": 1498,
+      "2025-26": 1593,
+      "2026-27": 1482
+    },
+    "Endeavour Energy": {
+      "2019-20": 1720,
+      "2020-21": 1716,
+      "2021-22": 1555,
+      "2022-23": 1672,
+      "2023-24": 1914,
+      "2024-25": 1840,
+      "2025-26": 1955,
+      "2026-27": 1816
+    },
+    "Essential Energy": {
+      "2019-20": 1957,
+      "2020-21": 1966,
+      "2021-22": 1843,
+      "2022-23": 1905,
+      "2023-24": 2171,
+      "2024-25": 2080,
+      "2025-26": 2222,
+      "2026-27": 2032
+    },
+    "Energex": {
+      "2019-20": 1570,
+      "2020-21": 1513,
+      "2021-22": 1406,
+      "2022-23": 1475,
+      "2023-24": 1692,
+      "2024-25": 1710,
+      "2025-26": 1737,
+      "2026-27": 1551
+    },
+    "SA Power Networks": {
+      "2019-20": 1941,
+      "2020-21": 1838,
+      "2021-22": 1658,
+      "2022-23": 1676,
+      "2023-24": 1958,
+      "2024-25": 1846,
+      "2025-26": 1865,
+      "2026-27": 1821
+    }
+  },
+  "prices_sb_real": {
+    "Ausgrid": {
+      "2022-23": 3971,
+      "2023-24": 4295,
+      "2024-25": 3818,
+      "2025-26": 4035,
+      "2026-27": 3529
+    },
+    "Endeavour Energy": {
+      "2022-23": 3444,
+      "2023-24": 3951,
+      "2024-25": 3660,
+      "2025-26": 3871,
+      "2026-27": 3389
+    },
+    "Essential Energy": {
+      "2022-23": 4464,
+      "2023-24": 4950,
+      "2024-25": 4745,
+      "2025-26": 5044,
+      "2026-27": 4305
+    },
+    "Energex": {
+      "2022-23": 3138,
+      "2023-24": 3610,
+      "2024-25": 3527,
+      "2025-26": 3481,
+      "2026-27": 3003
+    },
+    "SA Power Networks": {
+      "2022-23": 4134,
+      "2023-24": 5025,
+      "2024-25": 4430,
+      "2025-26": 4492,
+      "2026-27": 4028
+    }
+  },
+  "yoy": {
+    "Ausgrid": {
+      "residential": {
+        "2020-21": {
+          "change_aud": -5,
+          "change_pct": -0.3
+        },
+        "2021-22": {
+          "change_aud": -69,
+          "change_pct": -4.7
+        },
+        "2022-23": {
+          "change_aud": 119,
+          "change_pct": 8.5
+        },
+        "2023-24": {
+          "change_aud": 315,
+          "change_pct": 20.8
+        },
+        "2024-25": {
+          "change_aud": -17,
+          "change_pct": -0.9
+        },
+        "2025-26": {
+          "change_aud": 155,
+          "change_pct": 8.6
+        },
+        "2026-27": {
+          "change_aud": -66,
+          "change_pct": -3.4
+        }
+      },
+      "small_business": {
+        "2023-24": {
+          "change_aud": 639,
+          "change_pct": 14.7
+        },
+        "2024-25": {
+          "change_aud": -387,
+          "change_pct": -7.7
+        },
+        "2025-26": {
+          "change_aud": 365,
+          "change_pct": 7.9
+        },
+        "2026-27": {
+          "change_aud": -454,
+          "change_pct": -9.1
+        }
+      }
+    },
+    "Endeavour Energy": {
+      "residential": {
+        "2020-21": {
+          "change_aud": -9,
+          "change_pct": -0.5
+        },
+        "2021-22": {
+          "change_aud": -102,
+          "change_pct": -6.0
+        },
+        "2022-23": {
+          "change_aud": 227,
+          "change_pct": 14.1
+        },
+        "2023-24": {
+          "change_aud": 392,
+          "change_pct": 21.4
+        },
+        "2024-25": {
+          "change_aud": -5,
+          "change_pct": -0.2
+        },
+        "2025-26": {
+          "change_aud": 188,
+          "change_pct": 8.5
+        },
+        "2026-27": {
+          "change_aud": -83,
+          "change_pct": -3.4
+        }
+      },
+      "small_business": {
+        "2023-24": {
+          "change_aud": 816,
+          "change_pct": 21.6
+        },
+        "2024-25": {
+          "change_aud": -176,
+          "change_pct": -3.8
+        },
+        "2025-26": {
+          "change_aud": 353,
+          "change_pct": 8.0
+        },
+        "2026-27": {
+          "change_aud": -432,
+          "change_pct": -9.0
+        }
+      }
+    },
+    "Essential Energy": {
+      "residential": {
+        "2020-21": {
+          "change_aud": 3,
+          "change_pct": 0.2
+        },
+        "2021-22": {
+          "change_aud": -53,
+          "change_pct": -2.7
+        },
+        "2022-23": {
+          "change_aud": 185,
+          "change_pct": 9.7
+        },
+        "2023-24": {
+          "change_aud": 435,
+          "change_pct": 20.8
+        },
+        "2024-25": {
+          "change_aud": -14,
+          "change_pct": -0.6
+        },
+        "2025-26": {
+          "change_aud": 228,
+          "change_pct": 9.1
+        },
+        "2026-27": {
+          "change_aud": -137,
+          "change_pct": -5.0
+        }
+      },
+      "small_business": {
+        "2023-24": {
+          "change_aud": 860,
+          "change_pct": 17.5
+        },
+        "2024-25": {
+          "change_aud": -28,
+          "change_pct": -0.5
+        },
+        "2025-26": {
+          "change_aud": 489,
+          "change_pct": 8.5
+        },
+        "2026-27": {
+          "change_aud": -705,
+          "change_pct": -11.3
+        }
+      }
+    },
+    "Energex": {
+      "residential": {
+        "2020-21": {
+          "change_aud": -62,
+          "change_pct": -3.9
+        },
+        "2021-22": {
+          "change_aud": -53,
+          "change_pct": -3.5
+        },
+        "2022-23": {
+          "change_aud": 165,
+          "change_pct": 11.3
+        },
+        "2023-24": {
+          "change_aud": 349,
+          "change_pct": 21.5
+        },
+        "2024-25": {
+          "change_aud": 97,
+          "change_pct": 4.9
+        },
+        "2025-26": {
+          "change_aud": 77,
+          "change_pct": 3.7
+        },
+        "2026-27": {
+          "change_aud": -155,
+          "change_pct": -7.2
+        }
+      },
+      "small_business": {
+        "2023-24": {
+          "change_aud": 756,
+          "change_pct": 21.9
+        },
+        "2024-25": {
+          "change_aud": 59,
+          "change_pct": 1.4
+        },
+        "2025-26": {
+          "change_aud": 33,
+          "change_pct": 0.8
+        },
+        "2026-27": {
+          "change_aud": -445,
+          "change_pct": -10.4
+        }
+      }
+    },
+    "SA Power Networks": {
+      "residential": {
+        "2020-21": {
+          "change_aud": -109,
+          "change_pct": -5.6
+        },
+        "2021-22": {
+          "change_aud": -116,
+          "change_pct": -6.3
+        },
+        "2022-23": {
+          "change_aud": 124,
+          "change_pct": 7.2
+        },
+        "2023-24": {
+          "change_aud": 439,
+          "change_pct": 23.9
+        },
+        "2024-25": {
+          "change_aud": -49,
+          "change_pct": -2.2
+        },
+        "2025-26": {
+          "change_aud": 71,
+          "change_pct": 3.2
+        },
+        "2026-27": {
+          "change_aud": 33,
+          "change_pct": 1.4
+        }
+      },
+      "small_business": {
+        "2023-24": {
+          "change_aud": 1310,
+          "change_pct": 28.9
+        },
+        "2024-25": {
+          "change_aud": -497,
+          "change_pct": -8.5
+        },
+        "2025-26": {
+          "change_aud": 189,
+          "change_pct": 3.5
+        },
+        "2026-27": {
+          "change_aud": -379,
+          "change_pct": -6.8
+        }
+      }
+    }
+  },
+  "cost_components": {
+    "description": "Share ranges of DMO price by component, as published in AER information kits. The AER publishes ranges across distribution zones, not single midpoint values.",
+    "2026-27": {
+      "wholesale": {
+        "min": 0.3,
+        "max": 0.41
+      },
+      "network": {
+        "min": 0.39,
+        "max": 0.54
+      },
+      "environmental": {
+        "min": 0.02,
+        "max": 0.03
+      },
+      "retail": {
+        "min": 0.07,
+        "max": 0.16
+      }
+    }
+  },
+  "standing_offer": {
+    "description": "Number of customers on standing offers and share of total customer base, from AER determination Table 3.1 series (DMO 4 through DMO 8). SE Queensland figures are approximate \u2014 extrapolated from all of Queensland by excluding Ergon Energy customers (per Table 3.1 notes).",
+    "regional_residential_latest": {
+      "note": "Regional residential standing offer counts derived from DMO 7 and DMO 8 Table 3.1",
+      "NSW": {
+        "DMO 7": 278868,
+        "DMO 8": 249958
+      },
+      "SE Queensland": {
+        "DMO 7": 136032,
+        "DMO 8": 158972
+      },
+      "SA": {
+        "DMO 7": 60827,
+        "DMO 8": 66230
+      }
+    },
+    "residential": {
+      "DMO 4": {
+        "count": 580519,
+        "share": 0.104,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 5": {
+        "count": 539948,
+        "share": 0.095,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 6": {
+        "count": 495884,
+        "share": 0.086,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 7": {
+        "count": 475727,
+        "share": 0.082,
+        "source": "DMO 7 final determination Table 3.1",
+        "snapshot": "Q2 2024\u201325"
+      },
+      "DMO 8": {
+        "count": 475160,
+        "share": 0.08,
+        "source": "DMO 8 final determination Table 3.1",
+        "snapshot": "Q2 2025\u201326"
+      }
+    },
+    "small_business": {
+      "DMO 4": {
+        "count": 102146,
+        "share": 0.191,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 5": {
+        "count": 91040,
+        "share": 0.18,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 6": {
+        "count": 94799,
+        "share": 0.183,
+        "source": "DMO 7 final determination Table 3.1"
+      },
+      "DMO 7": {
+        "count": 91060,
+        "share": 0.176,
+        "source": "DMO 7 final determination Table 3.1",
+        "snapshot": "Q2 2024\u201325"
+      },
+      "DMO 8": {
+        "count": 77082,
+        "share": 0.15,
+        "source": "DMO 8 final determination Table 3.1",
+        "snapshot": "Q2 2025\u201326"
+      }
+    }
+  },
+  "zones": [
+    "Ausgrid",
+    "Endeavour Energy",
+    "Essential Energy",
+    "Energex",
+    "SA Power Networks"
+  ],
+  "res_years": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27"
+  ],
+  "sb_years": [
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27"
+  ],
+  "states": {
+    "Ausgrid": "NSW",
+    "Endeavour Energy": "NSW",
+    "Essential Energy": "NSW",
+    "Energex": "SE QLD",
+    "SA Power Networks": "SA"
+  },
+  "usage_assumptions": {
+    "Ausgrid": {
+      "residential": 3900,
+      "small_business": 10000
+    },
+    "Endeavour Energy": {
+      "residential": 4900,
+      "small_business": 10000
+    },
+    "Essential Energy": {
+      "residential": 4600,
+      "small_business": 10000
+    },
+    "Energex": {
+      "residential": 4600,
+      "small_business": 10000
+    },
+    "SA Power Networks": {
+      "residential": 4000,
+      "small_business": 10000
+    }
+  },
+  "cpi_deflators": {
+    "description": "CPI All Groups Weighted Average of Eight Capital Cities, June quarter index chained from Jun 2019 = 100. Used to deflate nominal DMO prices to 2019-20 dollars.",
+    "source": "ABS Consumer Price Index, Australia (cat. 6401.0). June quarter annual percentage changes applied cumulatively from a Jun 2019 base.",
+    "note_dmo8": "Jun 2026 figure uses the ABS June quarter 2026 CPI annual change of 3.9% (published 26 August 2026).",
+    "by_dmo_year": {
+      "2019-20": 100.0,
+      "2020-21": 99.7,
+      "2021-22": 103.49,
+      "2022-23": 109.8,
+      "2023-24": 116.39,
+      "2024-25": 120.81,
+      "2025-26": 123.35,
+      "2026-27": 128.16
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "generated": "2026-10",
+  "title": "Default Market Offer \u2014 Eight Years of Prices in Real Terms",
+  "period": "DMO 1 (2019-20) to DMO 8 (2026-27)",
+  "key_findings": [
+    {
+      "finding": "The DMO protects a steadily shrinking group of customers",
+      "detail": "Residential standing offer customers fell from 580,519 (10.4%) at DMO 4 to 475,160 (8.0%) at DMO 8 \u2014 an 18.1% reduction (source: DMO 4 from DMO 7 Table 3.1, DMO 8 from DMO 8 Table 3.1). Small business standing offer customers fell 24.5% over the same period (102,146 to 77,082), with the share dropping from 19.1% to 15.0%. Numbers were essentially flat between DMO 7 (475,727, 8.2%) and DMO 8 (475,160, 8.0%). Regionally, residential NSW fell 10.4% (278,868 to 249,958) while SE Queensland rose 16.9% (136,032 to 158,972; approximate \u2014 extrapolated by excluding Ergon Energy, per Table 3.1 notes) and SA rose 8.9% (60,827 to 66,230)."
+    },
+    {
+      "finding": "In real terms the DMO has gone nowhere in eight years",
+      "detail": "Ausgrid residential nominal prices are up 29.4% from DMO 1 to DMO 8 ($1,467 to $1,899), but in real terms (2019\u201320 dollars) the increase is just 1.0% ($1,467 to $1,482). The real series dipped below its starting point in 2021\u201322 and 2022\u201323 ($1,346 and $1,377), spiked with the 2023\u201324 increase driven by wholesale costs (DMO 5 determination, s 1.2), and has now returned to roughly where it began. DMO 8 itself pulls back residential prices in four of five zones \u2014 the 3.4% nominal fall is a 7.0% real fall once inflation is stripped out. The AER attributes lower wholesale costs to falling contract prices for 2026\u201327 amid low spot price volatility (s 1.2)."
+    },
+    {
+      "finding": "Regional divergence in DMO 8",
+      "detail": "Energex (SE QLD) sees the largest residential flat rate decrease at \u20137.2%. SA Power Networks is the only zone with a flat rate price increase (+1.4% for residential). The AER says South Australian wholesale costs fell less than in other regions because of high-priced FCAS events in July and August 2025 (s 1.2). Network charges also mostly increased."
+    },
+    {
+      "finding": "Small business customers see larger price relief",
+      "detail": "Small business DMO flat rate prices fall by an unweighted average of 9.3% across all five zones in DMO 8 (9.4% weighted by approximate customer numbers), compared with an unweighted average decrease of 3.5% for residential (4.0% weighted), where SA Power Networks rose 1.4%."
+    },
+    {
+      "finding": "Network and wholesale charges are the two largest DMO components",
+      "detail": "In DMO 8, network costs account for 39\u201354% of the price across zones, and wholesale costs represent 30\u201341%. Environmental schemes account for 2\u20133%, and retail costs 7\u201316%."
+    }
+  ]
+}

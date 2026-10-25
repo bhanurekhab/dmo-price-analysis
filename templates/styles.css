@@ -1,0 +1,202 @@
+:root {
+  --heading: #2d3748;
+  --accent: #4a6fa5;
+  --accent-light: #6b8fc4;
+  --text: #374151;
+  --text-light: #6b7280;
+  --bg: #ffffff;
+  --surface: #f8f9fb;
+  --border: #e2e6ec;
+  --increase: #b45050;
+  --decrease: #3d8b5e;
+  --c1: #4a6fa5;
+  --c2: #e07b4a;
+  --c3: #5ba37a;
+  --c4: #9b6bb5;
+  --c5: #c75c5c;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --heading: #e2e8f0;
+    --accent: #7ba3d4;
+    --accent-light: #92b8e4;
+    --text: #d1d5db;
+    --text-light: #9ca3af;
+    --bg: #1a1f2b;
+    --surface: #242a38;
+    --border: #3b4255;
+    --increase: #d88888;
+    --decrease: #6bc48e;
+    --c1: #7ba3d4;
+    --c2: #eba07a;
+    --c3: #7ec49a;
+    --c4: #b990d0;
+    --c5: #d88888;
+  }
+}
+:root[data-theme="dark"] {
+  --heading: #e2e8f0;
+  --accent: #7ba3d4;
+  --accent-light: #92b8e4;
+  --text: #d1d5db;
+  --text-light: #9ca3af;
+  --bg: #1a1f2b;
+  --surface: #242a38;
+  --border: #3b4255;
+  --increase: #d88888;
+  --decrease: #6bc48e;
+  --c1: #7ba3d4;
+  --c2: #eba07a;
+  --c3: #7ec49a;
+  --c4: #b990d0;
+  --c5: #d88888;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+}
+.header {
+  padding: 48px 16px 36px;
+  max-width: 880px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+}
+.header h1 {
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 600;
+  color: var(--heading);
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+.header .scope {
+  font-size: 0.84rem;
+  color: var(--text-light);
+}
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.section { margin: 40px 0; }
+.section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--heading);
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.section h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 24px 0 10px;
+}
+.section p {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+/* Findings */
+.findings { display: flex; flex-direction: column; gap: 12px; }
+.finding {
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+  padding: 14px 18px;
+  border-radius: 0 4px 4px 0;
+}
+.finding strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--heading);
+  margin-bottom: 4px;
+}
+.finding p { margin: 0; font-size: 0.85rem; }
+/* Tables */
+.table-wrapper { overflow-x: auto; margin: 14px 0; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+thead th {
+  background: var(--surface);
+  color: var(--heading);
+  font-weight: 600;
+  padding: 8px 10px;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--border);
+}
+td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+}
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.positive { color: var(--increase); }
+.negative { color: var(--decrease); }
+/* Charts */
+.chart-box {
+  position: relative;
+  margin: 20px 0;
+  padding: 16px;
+  background: var(--surface);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  min-height: 340px;
+}
+.chart-label {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--heading);
+  margin-bottom: 4px;
+}
+.chart-source {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  margin-top: 8px;
+}
+canvas { height: 300px !important; }
+/* Tabs */
+.tab-row { display: flex; gap: 0; margin-bottom: 0; }
+.tab-btn {
+  padding: 7px 18px;
+  border: 1px solid var(--border);
+  border-bottom: none;
+  background: var(--bg);
+  color: var(--text-light);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 4px 4px 0 0;
+}
+.tab-btn.active {
+  background: var(--surface);
+  color: var(--heading);
+  font-weight: 600;
+  border-bottom: 2px solid var(--surface);
+  margin-bottom: -1px;
+}
+/* Methodology */
+.notes-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 18px 20px;
+  font-size: 0.84rem;
+  margin-top: 14px;
+}
+.notes-box h3 { margin-top: 16px; color: var(--heading); }
+.notes-box h3:first-child { margin-top: 0; }
+.notes-box ul { margin: 6px 0 6px 20px; }
+.notes-box li { margin-bottom: 3px; }
+.footer {
+  margin-top: 48px;
+  padding: 20px 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--text-light);
+  text-align: center;
+}

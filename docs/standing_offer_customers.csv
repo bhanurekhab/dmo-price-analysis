@@ -1,0 +1,11 @@
+year,customer_type,customer_count,share_of_customers_pct
+DMO 4,residential,580519,10.4
+DMO 5,residential,539948,9.5
+DMO 6,residential,495884,8.6
+DMO 7,residential,475727,8.2
+DMO 8,residential,475160,8.0
+DMO 4,small_business,102146,19.1
+DMO 5,small_business,91040,18.0
+DMO 6,small_business,94799,18.3
+DMO 7,small_business,91060,17.6
+DMO 8,small_business,77082,15.0
